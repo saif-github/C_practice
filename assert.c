@@ -1,17 +1,30 @@
-#include<assert.h>
+/*
+ * assert.c
+ *
+ *  Created on: 30-Dec-2018
+ *      Author: saif
+ */
+
+
 #include<stdio.h>
+
+//#define NDEBUG
+#include<assert.h>
 
 void open_record(char *record_name)
 {
-	assert(record_name != NULL);
-	/* Rest of code */
-
-	printf("assert sucessfull\n");
+    assert(record_name != NULL);
+    /* Rest of code */
+    printf("assert evaluates to true\n");
 }
 
 int main(void)
 {
-    char c=1;
-	//open_record(&c);
-	open_record(NULL);
+   //open_record("string");
+   open_record(NULL);
 }
+
+
+
+
+
