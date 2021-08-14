@@ -1,14 +1,15 @@
-/*35. void main() { 
-			printf("Hi!"); 
-			if (-1) 
-					printf("Bye"); 
+/*35. void main() {
+			printf("Hi!");
+			if (-1)
+					printf("Bye");
 		}*/
 		#include<stdio.h>
-		void main()
+		int main()
 		{
-		printf("Hi!");
-		if(-1)
-		printf("BYe");
+			printf("Hi!");
+			if(-1)
+			printf("BYe\n");
+			return 0;
 		}
 		/*here if if(0) having zero inside it doesn't execute next part
 		for other than zero--non zero it executes
