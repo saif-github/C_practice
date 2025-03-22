@@ -6,5 +6,5 @@ int *ptr;
 int a;
 ptr=&a;
 *ptr=40;
-printf("\nThe integer %d is stored on address %d\t%d\n\n",*ptr,ptr,&a);
+printf("\nThe integer %d is stored on address %x\t%x\n\n",*ptr,ptr,&a);
 }
