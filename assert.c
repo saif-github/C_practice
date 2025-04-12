@@ -23,8 +23,3 @@ int main(void)
    //open_record("string");
    open_record(NULL);
 }
-
-
-
-
-
