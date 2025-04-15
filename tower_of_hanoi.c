@@ -31,11 +31,12 @@ main()
     tofh(ndisk,source,temp,dest);
 }
 
-tofh(int ndisk,char source,char temp,char dest)
+void tofh(int ndisk,char source,char temp,char dest)
 {
-    if(ndisk>0)
+    if(ndisk>-1)
     {
         tofh(ndisk-1,source,dest,temp);
         printf("Move Disk %d %c --> %c\n",ndisk,source,dest);
+        tofh(ndisk-1,temp,source,dest);
     }
-}
+} /*End of tofh*/
