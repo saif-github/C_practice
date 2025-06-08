@@ -6,6 +6,7 @@
  evaluates the operands that follow, and then returns the value.
 
  intresting article on comma operator use case  https://www.embeddedrelated.com/showarticle/804.php
+ 
  */
 
  #include<stdio.h>

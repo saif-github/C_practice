@@ -16,7 +16,7 @@ int main(){
   int **matrix = (int **) malloc(rows * sizeof(int *));
 
   for (int i = 0; i < rows; i++) {
-    matrix[i] = (int *) malloc(columns * sizeof(int));s
+    matrix[i] = (int *) malloc(columns * sizeof(int));
   }
 
   for(int i=0; i<2; i++) {
